@@ -23,7 +23,7 @@ body{
     margin-top: 10px;
  }
  .employee{
-    color: green;
+    color: #82A70C;
     font-weight: bold;
  }
  .emp-text-nextline{
@@ -60,14 +60,14 @@ body{
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
-    align-items: center;
+ 
     border: 0px solid green;
  }
  .label{
     min-width: 140px;
  }
  label{
-    padding: 12px 12px 12px 0;
+    padding: 12px 12px 12px 0px;
     display: inline-block;
  }
  .text{
@@ -77,10 +77,27 @@ body{
     font-family: Roboto;
  }
  .input{
-    width: 300px;
-    padding: 12px;
+    width: 100%;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
  }
- 
+ .profile-radio-content{
+    display:flex;
+    flex-direction: row;
+ }
+ .profile-radio-content > label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+ .profileDiv{
+    display: flex;
+    flex-direction: row;
+ }
+ .profile{
+    width: 40px;
+    border-radius:50%;
+    margin-left: 12px;
+ }
